@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world() :
-    return 'Hello Guys!'
+    return json.dumps('Hello Guys!')
 
 @app.route('/users/details')
 def listing() :
@@ -21,7 +21,7 @@ def listing() :
 @app.route('/users/register', methods=['POST'])
 def create() :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     with open('data/users.csv', 'a') as f1 :
         f1 = csv.DictWriter(f1,fieldnames=['id','name','contact_number','address','password'])
         cnt = json.loads(listing())
@@ -29,7 +29,7 @@ def create() :
         print(values)
         values['id']=len(cnt)+1
         f1.writerow(values)
-    return "Success"
+    return json.dumps("Success")
 
 @app.route('/users/login',methods=['POST'])
 def login():
@@ -42,29 +42,27 @@ def login():
         global flag
         flag=True
 
-        return "Login Successful"
+        return json.dumps("Login Successful")
     else:
-        return "Login Failed"
+        return json.dumps("Login Failed")
 
 @app.route('/users/modify/<id>', methods=['PATCH'])
 def edit(id) :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     id = int(id)
     cnt = json.loads(listing())
     if id>len(cnt):
-        return "User not in the DB"
+        return json.dumps("User not in the DB")
     cnt[id - 1]['password'] = request.json['password']
     with open('data/users.csv', 'w') as f1 :
         f1 = csv.DictWriter(f1, fieldnames=['id', 'name', 'contact_number', 'address', 'password'])
         f1.writeheader()
         f1.writerows(cnt)
 
-    return "Modified password successfully"
-
+    return json.dumps("Modified password successfully")
 
 @app.route('/users/delete/<int:id>', methods=['DELETE'])
-
 def delete(id) :
     if flag==True:
         cnt = json.loads(listing())
@@ -76,16 +74,16 @@ def delete(id) :
             f1.writeheader()
             f1.writerows(cnt)
 
-        return "Deleted"
+        return json.dumps("Deleted")
     else:
-        return "Authentication error"
+        return json.dumps("Authentication error")
 
 ################Start of the bus
 @app.route('/buses',methods=['POST'])
 
 def listingb() :
     if flag==False:
-        return "Authentication error"
+        return json.dumps("Authentication error")
 
     with open('data/buses.csv', 'r') as f1 :
         f1 = csv.DictReader(f1)
@@ -97,7 +95,7 @@ def listingb() :
 
 def createb() :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     with open('data/buses.csv', 'a') as f1 :
         f1 = csv.DictWriter(f1,fieldnames=['id', 'bus_number', 'departure_loc', 'arrival_loc', 'journey_duration','fare'])
         cnt = json.loads(listingb())
@@ -105,13 +103,13 @@ def createb() :
         print(values)
         values['id']=len(cnt)+1
         f1.writerow(values)
-    return "Success"
+    return json.dumps("Success")
 
 @app.route('/buses/search',methods=['POST'])
 
 def show() :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     number = request.json['bus_number']
     cnt = json.loads(listingb())
     for i in cnt:
@@ -120,14 +118,14 @@ def show() :
             break
         else:
             flags = "Not in the DB"
-    return flags
+    return json.dumps(flags)
 
 
 @app.route('/buses/modify/<id>', methods=['PATCH'])
 
 def editbbb(id) :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     id = int(id)
     cnt = json.loads(listingb())
     if id>len(cnt):
@@ -140,12 +138,12 @@ def editbbb(id) :
         f1.writeheader()
         f1.writerows(cnt)
 
-    return "Modified successfully"
+    return json.dumps("Modified successfully")
 
 @app.route('/buses/delete/<int:id>', methods=['DELETE'])
 def delss(id):
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     cnt = json.loads(listingb())
     cnt.pop(id - 1)
     for i in range(len(cnt)) :
@@ -155,7 +153,7 @@ def delss(id):
         f1.writeheader()
         f1.writerows(cnt)
 
-    return "deletebd"
+    return json.dumps("deletebd")
 
 
 
@@ -164,7 +162,7 @@ def delss(id):
 
 def listingt() :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     with open('data/trains.csv', 'r') as f1 :
         f1 = csv.DictReader(f1)
         li = list(f1)
@@ -175,7 +173,7 @@ def listingt() :
 
 def createt() :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     with open('data/trains.csv', 'a') as f1 :
         f1 = csv.DictWriter(f1,fieldnames=['id', 'train_number', 'departure_loc', 'arrival_loc', 'journey_duration','fare'])
         cnt = json.loads(listingt())
@@ -183,12 +181,12 @@ def createt() :
         print(values)
         values['id']=len(cnt)+1
         f1.writerow(values)
-    return "Success"
+    return json.dumps("Success")
 
 @app.route('/trains/search',methods=['POST'])
 def searcht() :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     number = request.json['train_number']
     cnt = json.loads(listingt())
     for i in cnt:
@@ -197,12 +195,12 @@ def searcht() :
             break
         else:
             flags = "Not in the DB"
-    return flag
+    return json.dumps(flag)
 
 @app.route('/trains/modify/<id>', methods=['PATCH'])
 def editt(id) :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     id = int(id)
     cnt = json.loads(listingt())
     if id>len(cnt):
@@ -215,12 +213,12 @@ def editt(id) :
         f1.writeheader()
         f1.writerows(cnt)
 
-    return "Modified successfully"
+    return json.dumps("Modified successfully")
 
 @app.route('/trains/delete/<int:id>', methods=['DELETE'])
 def deletet(id) :
     if flag == False :
-        return "Authentication error"
+        return json.dumps("Authentication error")
     cnt = json.loads(listingt())
     cnt.pop(id - 1)
     for i in range(len(cnt)) :
@@ -230,7 +228,7 @@ def deletet(id) :
         f1.writeheader()
         f1.writerows(cnt)
 
-    return "deletebd"
+    return json.dumps("deletebd")
 
 if __name__ == '__main__' :
     app.run(debug=True)
