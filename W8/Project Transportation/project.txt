@@ -1,7 +1,6 @@
 ## Project (CRUD)
 ### Note
-- Make a new directory `project` inside week_08/day_6 
-- all the files related to project should be inside this directory
+
 **Transport Search System**
 - Make three files to work from user.csv, trains.csv and buses.csv
 - all the csv files should be stored in the `data/<filename>.csv`
