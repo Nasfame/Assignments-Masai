@@ -1,0 +1,15 @@
+use w9d5;
+select count(*) from employee_salary where gender = 'Male' and department='Engineering';
+select * from employee_salary where gender = 'Male';
+select count(*) from employee_salary where gender = 'Female' and department='Engineering'and salary>1000000;
+select count(*) from employee_salary where salary <80000;
+select count(*) from employee_salary where salary <100000 and department='Accounting'or'Legal';
+select * from employee_salary where gender = 'Male' order by salary desc limit 10;
+select * from employee_salary where gender = 'Female' order by salary limit 10;
+select * from employee_salary where gender = 'Male' and department='Engineering';
+select * from employee_salary where department='Engineering' order by salary desc limit 5;
+select * from employee_salary where department='Legal' order by salary limit 5;
+select * from employee_salary where gender = 'Female' order by salary limit 30,20;
+select * from employee_salary where gender = 'Male' order by salary limit 50,50;
+select * from employee_salary where department='Engineering' and gender = 'Female' order by salary limit 50;
+select * from employee_salary where gender = 'Male' and department = 'Human Resources' order by salary desc limit 50;
