@@ -63,22 +63,6 @@ WHERE
     section = 'A' AND maths < 50
         AND science < 50
         AND english < 50;
-select *
-FROM
-    students_marks
-WHERE
-    section='A'
-     AND maths < 50
-        AND science < 50
-        AND english <50;
-  select  *
-FROM
-    students_marks
-WHERE
-    section='A'
-     AND maths < 50
-        AND science < 50
-        AND english <50;
 SELECT 
     *
 FROM
@@ -87,7 +71,23 @@ WHERE
     section = 'A' AND maths < 50
         AND science < 50
         AND english < 50;
-elect
+SELECT 
+    *
+FROM
+    students_marks
+WHERE
+    section = 'A' AND maths < 50
+        AND science < 50
+        AND english < 50;
+SELECT 
+    *
+FROM
+    students_marks
+WHERE
+    section = 'A' AND maths < 50
+        AND science < 50
+        AND english < 50;
+select
     *
 FROM
     students_marks
@@ -97,19 +97,42 @@ WHERE
         AND science < 50
         AND english <50;
 
-select
+SELECT 
     *
 FROM
     students_marks
 WHERE
-    section='C'
-     AND maths >75
-        AND science >75
-        AND english >75;
+    section = 'C' AND maths > 75
+        AND science > 75
+        AND english > 75;
         
-select * from students_marks order by maths limit 3,10;
-select * from students_marks order by science desc limit 5,20;
-select * from students_marks where gender = 'Female' order by science,maths limit 4,5;
-select * from students_marks where gender = 'Male' order by science desc ,maths desc,english desc limit 3,15;
+SELECT 
+    *
+FROM
+    students_marks
+ORDER BY maths
+LIMIT 3 , 10;
+SELECT 
+    *
+FROM
+    students_marks
+ORDER BY science DESC
+LIMIT 5 , 20;
+SELECT 
+    *
+FROM
+    students_marks
+WHERE
+    gender = 'Female'
+ORDER BY science , maths
+LIMIT 4 , 5;
+SELECT 
+    *
+FROM
+    students_marks
+WHERE
+    gender = 'Male'
+ORDER BY science DESC , maths DESC , english DESC
+LIMIT 3 , 15;
 
 
