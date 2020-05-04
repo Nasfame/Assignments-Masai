@@ -11,7 +11,6 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -22,7 +21,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -33,6 +31,7 @@
     <property name="recentsLimit" value="0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,20 +59,8 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\shahi\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,22 +78,27 @@
       <workItem from="1587205408471" duration="2628000" />
       <workItem from="1587210184390" duration="967000" />
       <workItem from="1587211643876" duration="505000" />
-      <workItem from="1587477874161" duration="4131000" />
+      <workItem from="1588454799966" duration="191000" />
+      <workItem from="1588455340643" duration="632000" />
+      <workItem from="1588484840682" duration="1008000" />
+      <workItem from="1588509651981" duration="614000" />
+      <workItem from="1588518905278" duration="2661000" />
+      <workItem from="1588525188227" duration="227000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="175" y="0" key="#Notifications" timestamp="1587132552083">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="175" y="0" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1587132552083" />
-    <state x="137" y="12" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587132473443">
+    <state x="137" y="12" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588523014040">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="12" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587132473443" />
+    <state x="137" y="12" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588523014040" />
     <state x="395" y="205" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1587156415018">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -115,26 +107,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="356" y="72" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1587051499091" />
-    <state width="1311" height="134" key="GridCell.Tab.0.bottom" timestamp="1587484231033">
+    <state width="1311" height="133" key="GridCell.Tab.0.bottom" timestamp="1588524774902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="134" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587484231033" />
-    <state width="1311" height="134" key="GridCell.Tab.0.center" timestamp="1587484231033">
+    <state width="1311" height="133" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1588524774902" />
+    <state width="1311" height="133" key="GridCell.Tab.0.center" timestamp="1588524774902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="134" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587484231033" />
-    <state width="1311" height="134" key="GridCell.Tab.0.left" timestamp="1587484231032">
+    <state width="1311" height="133" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1588524774902" />
+    <state width="1311" height="133" key="GridCell.Tab.0.left" timestamp="1588524774902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="134" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587484231032" />
-    <state width="1311" height="134" key="GridCell.Tab.0.right" timestamp="1587484231033">
+    <state width="1311" height="133" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1588524774902" />
+    <state width="1311" height="133" key="GridCell.Tab.0.right" timestamp="1588524774902">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="134" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587484231033" />
-    <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1587477906425">
+    <state width="1311" height="133" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1588524774902" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1588525394003">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="314" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587477906425" />
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588525394003" />
+    <state x="314" y="146" key="com.intellij.ide.util.TipDialog" timestamp="1587211664353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="314" y="146" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587211664353" />
     <state x="237" y="23" width="875" height="663" key="recent.locations.popup" timestamp="1587204092570">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -146,10 +142,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FWD$Flask__server_py_.coverage" NAME="Flask (server.py) Coverage Results" MODIFIED="1587132419918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/FWD$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1587051279399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/FWD$server.coverage" NAME="server Coverage Results" MODIFIED="1587132455378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/FWD$app.coverage" NAME="app Coverage Results" MODIFIED="1587051633444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FWD$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1587051704772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/FWD$FWD.coverage" NAME="FWD Coverage Results" MODIFIED="1587483669349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FWD$Flask__app_py___1_.coverage" NAME="Flask (app.py) (1) Coverage Results" MODIFIED="1587051279399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FWD$FWD.coverage" NAME="FWD Coverage Results" MODIFIED="1588523017752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FWD$app.coverage" NAME="app Coverage Results" MODIFIED="1587051633444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FWD$server.coverage" NAME="server Coverage Results" MODIFIED="1587132455378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
