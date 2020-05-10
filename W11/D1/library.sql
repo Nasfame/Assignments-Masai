@@ -1,0 +1,41 @@
+create database library;
+use library;
+create table books(id int not null AUTO_INCREMENT,primary key(id),name varchar(150));
+create table authors(id int not null AUTO_INCREMENT,primary key(id),name varchar(150),book_id int, FOREIGN KEY(book_id) REFERENCES books(id));
+create table categories(id int not null AUTO_INCREMENT,primary key(id),name varchar(150),book_id int, FOREIGN KEY(book_id) REFERENCES books(id));
+create table publisher(id int not null AUTO_INCREMENT,primary key(id),name varchar(150),book_id int UNIQUE, FOREIGN KEY(book_id) REFERENCES books(id));
+
+insert into books (name) values ("Da Vinci Code");
+insert into books (name) values ("Origin");
+insert into books (name) values ("Harry Potter & the Deathly Hallows");
+insert into books (name) values ("Divergent");
+insert into books (name) values ("Maze Runner");
+insert into books (name) values ("Harry Potter & the Philospher's Stone");
+insert into books (name) values ("Harry Potter & the Chamber of Secrets");
+insert into books (name) values ("Harry Potter & the Prisoner of Azkhaban");
+select * from books;
+insert into authors(name,book_id) values ("Dan Brown",1);
+insert into authors(name,book_id) values ("Dan Brown",2);
+insert into authors(name,book_id) values ("JK Rowling",3);
+insert into authors(name,book_id) values ("Veronica Roth",4);
+insert into authors(name,book_id) values ("Mr Green",5);
+insert into authors(name,book_id) values ("JK Rowling",6);
+insert into authors(name,book_id) values ("JK Rowling",7);
+insert into authors(name,book_id) values ("JK Rowling",8);
+select * from authors; 
+insert into publisher(name,book_id) values ("Bloomsberry Pillsburg",8);
+insert into publisher(name,book_id) values ("Bloomsberry Pillsburg",7);
+insert into publisher(name,book_id) values ("Pottermore",3);
+select * from publisher;
+insert into categories(name,book_id) values ("Fantasy",8);
+insert into categories(name,book_id) values ("Children",8);
+insert into categories(name,book_id) values ("Teenagers",8);
+insert into categories(name,book_id) values ("Fiction",8);
+insert into categories(name,book_id) values ("Magic",8);
+insert into categories(name,book_id) values ("Dystopian",4);
+insert into categories(name,book_id) values ("Magic",7);
+insert into categories(name,book_id) values ("Fiction",7);
+insert into categories(name,book_id) values ("Adult",5);
+select * from categories;
+
+

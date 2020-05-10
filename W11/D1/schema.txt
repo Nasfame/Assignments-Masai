@@ -1,0 +1,11 @@
+Books		
+id	name	
+		
+Authors		
+id	name	book_id
+		
+Categories		
+id 	name	book_id
+		
+Publisher		
+id 	name	book_id
