@@ -9,7 +9,8 @@ Mention Relationships and Relationship tables in the Schema
 Make another directory inside project as sql and store these files
 BD.W11.6.1_1
 Filename schema.txt
-Schema of all the tables#### BD.W11.6.1_1- Filename table_creation.sql
+Schema of all the tables
+D.W11.6.1_1- Filename table_creation.sql
 Tables Creation Queries
 BD.W11.6.1_2
 Filename user_creation.sql
