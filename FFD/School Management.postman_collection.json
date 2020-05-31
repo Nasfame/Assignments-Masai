@@ -1,0 +1,640 @@
+{
+	"info": {
+		"_postman_id": "d03ce1bd-e562-4e11-b8eb-007913dc1450",
+		"name": "School Management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Teachers",
+			"item": [
+				{
+					"name": "http://127.0.0.1:5000/staff/details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/staff/details",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"staff",
+								"details"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/staff/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Hiro\",\n\t\"subject\":\"CyberSecurity\",\n\t\"years_of_experience\":1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/staff/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"staff",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/staff/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\n\t\"name\":\"Hiro\"\n\t\n\t\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/staff/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"staff",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/staff/modify/3/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Hiro\",\n\t\"subject\":\"DS\",\n\t\"years_of_experience\":0.5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/staff/modify/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzIzMTY4LjExNjY5MDJ9._55Znv39m3kSrmPrwLcIkKB_UbSnXrvxR_RJxLYQ85s",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"staff",
+								"modify",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzIzMTY4LjExNjY5MDJ9._55Znv39m3kSrmPrwLcIkKB_UbSnXrvxR_RJxLYQ85s"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/staff/delete/3/",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Hiro\",\n\t\"subject\":\"DS\",\n\t\"years_of_experience\":0.5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/staff/delete/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzIzMTY4LjExNjY5MDJ9._55Znv39m3kSrmPrwLcIkKB_UbSnXrvxR_RJxLYQ85s",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"staff",
+								"delete",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzIzMTY4LjExNjY5MDJ9._55Znv39m3kSrmPrwLcIkKB_UbSnXrvxR_RJxLYQ85s"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Students",
+			"item": [
+				{
+					"name": "http://127.0.0.1:5000/student/details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/student/details",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"student",
+								"details"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/student/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\": \"Hio\", \"email\": \"hiro@\", \"gender\": \"M\", \"password\": \"1234\", \"contact_number\": \"971\", \"address\":\r\n\"Tokyo\", \"father_name\": \"Tadashi\", \"mother_name\": \"Tess\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"student",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/student/login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Hio\",\n\t\"password\":\"1234\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/student/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"student",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/student/modify",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Hio\",\n\t\"password\":\"1234\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/student/modify/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsInJvbGUiOiJzdHVkZW50IiwidGltZSI6MTU5MDMyNTA5Ny4wODM4MTN9.fQ2mMNZ7jqpvApRaKGeLBte4W8urkmbwugAahAcicEI",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"student",
+								"modify",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsInJvbGUiOiJzdHVkZW50IiwidGltZSI6MTU5MDMyNTA5Ny4wODM4MTN9.fQ2mMNZ7jqpvApRaKGeLBte4W8urkmbwugAahAcicEI"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/student/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\":\"Hio\",\n\t\"password\":\"1234\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/student/delete/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsInJvbGUiOiJzdHVkZW50IiwidGltZSI6MTU5MDMyNTA5Ny4wODM4MTN9.fQ2mMNZ7jqpvApRaKGeLBte4W8urkmbwugAahAcicEI",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"student",
+								"delete",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsInJvbGUiOiJzdHVkZW50IiwidGltZSI6MTU5MDMyNTA5Ny4wODM4MTN9.fQ2mMNZ7jqpvApRaKGeLBte4W8urkmbwugAahAcicEI"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Classes",
+			"item": [
+				{
+					"name": "http://127.0.0.1:5000/class/student",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/student",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/student/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"student_id\": \"2\", \"class_id\": \"1\", \"section_id\": \"1\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/student/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"student",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/teacher",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/student",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"student"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/teacher/register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"class_id\": \"1\", \"section_id\": \"1\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/teacher/register",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"teacher",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/student/modify",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"student_id\": \"2\", \"class_id\": \"1\", \"section_id\": \"2\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/student/modify/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"student",
+								"modify",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/student/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"student_id\": \"2\", \"class_id\": \"1\", \"section_id\": \"1\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/student/delete/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"student",
+								"delete",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/teacher/modify",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"class_id\": \"1\", \"section_id\": \"1\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/teacher/modify/3/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"teacher",
+								"modify",
+								"3",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/teacher/delete",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/teacher/delete/1/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"teacher",
+								"delete",
+								"1",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/student/search/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsImlkIjoiIiwicm9sZSI6IiIsInRpbWUiOjE1OTAzNjM3MjEuOTA0NTA2N30.j_FE6-6OGsMFI1lDmQb3GgbeMr4WI5FJZxAQwRlU-_E",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/student/search/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsImlkIjoiMyIsInJvbGUiOiJzdHVkZW50IiwidGltZSI6MTU5MDM2MzgwNS40MjQzODYzfQ.NNTjl0pj7z0CfM7fDSTz8kLdUWgWHendHKPt8Xftlqs",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"student",
+								"search",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6IkhpbyIsImlkIjoiMyIsInJvbGUiOiJzdHVkZW50IiwidGltZSI6MTU5MDM2MzgwNS40MjQzODYzfQ.NNTjl0pj7z0CfM7fDSTz8kLdUWgWHendHKPt8Xftlqs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://127.0.0.1:5000/class/teacher/search/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:5000/class/teacher/search/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "5000",
+							"path": [
+								"class",
+								"teacher",
+								"search",
+								"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Ikhpcm8iLCJpZCI6IjMiLCJyb2xlIjoic3RhZmYiLCJ0aW1lIjoxNTkwMzYyMDE0LjY5NjgyOH0.KO74fs4mMUrGig37cOVm9OpTakyaCXBbHt2CK2fSEww"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

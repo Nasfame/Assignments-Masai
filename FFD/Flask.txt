@@ -1,0 +1,48 @@
+School Details
+
+Note
+make sure you use JWT to to any mofications to the data
+Data of students in school
+
+Make files to work from students.csv, classes.csv, sections.csv, teachers.csv
+
+all the csv files should be stored in the data/<filename>.csv
+
+students.csv should have details (id, name, email, gender, password, contact_number, address, father_name, mother_name)
+
+classes.csv should have (id, class)
+
+sections.csv should have (id, section)
+
+teachers.csv should contain (id, name, subject, years_of_experience)
+
+student_class.csv should contain (id, student_id, class_id, section_id)
+
+techer_class.csv should contain (id, teacher_id, class_id, section_id)
+
+the routes (apis) of student that are required are
+
+register student (POST Method)
+login student (POST Method)
+modify password (PATCH Method)
+delete student (DELETE Method)
+show all student details (GET Method)
+the routes (apis) of teacher that are required are
+
+register teacher (POST Method)
+login teacher (POST Method)
+modify password (PATCH Method)
+delete teacher (DELETE Method)
+show all teacher details (GET Method)
+the routes (apis) required other than student and teacher (classes, sections)
+
+create new details (POST Method)
+get all details (POST Method)
+search for a class or section using teacher_name or student_name (POST Method)
+delete details (DELETE Method)
+modify details (PATCH Method)
+a teacher has admin access, can change any data in the files, but a student can only change his own details nothing else (make the check with JWT)
+
+check for JWT before doing any modification, so login a student should give back a valid JWT Token for 1 hour.
+
+SHOWCASE Make sure you have all the API's saved in POSTMAN as a collection to showcase.

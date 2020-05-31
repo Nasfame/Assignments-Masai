@@ -1,37 +1,9 @@
-create database movie;
-use movie;
-CREATE TABLE user (
-    id INT AUTO_INCREMENT NOT NULL,
-    PRIMARY KEY (id),
-    name VARCHAR(250) UNIQUE
-);
-CREATE TABLE category (
-    id INT AUTO_INCREMENT NOT NULL,
-    PRIMARY KEY (id),
-    name VARCHAR(250) UNIQUE
-);
-CREATE TABLE movie (
-    id INT AUTO_INCREMENT NOT NULL,
-    PRIMARY KEY (id),
-    name VARCHAR(250) UNIQUE,
-    user_id INT,
-    FOREIGN KEY (user_id)
-        REFERENCES user (id),
-    category_id INT,
-    FOREIGN KEY (category_id)
-        REFERENCES category (id)
-);
-CREATE TABLE review (
-    id INT AUTO_INCREMENT NOT NULL,
-    PRIMARY KEY (id),
-    name VARCHAR(250),
-    user_id INT,
-    FOREIGN KEY (user_id)
-        REFERENCES user (id),
-    movie_id INT,
-    FOREIGN KEY (movie_id)
-        REFERENCES movie (id)
-);
-desc review;
-/*drop database movie;
+create DATABASE School;
+use School;
+create table teacher (id int AUTO_INCREMENT not null, name varchar(150) unique,PRIMARY KEY(id));
+create table class (id int AUTO_INCREMENT not null, name varchar(10) unique,PRIMARY KEY(id));
+create table section (id int AUTO_INCREMENT not null, name varchar(10) unique,PRIMARY KEY(id), teacher_id int, FOREIGN KEY(teacher_id) REFERENCES teacher(id));
+create table student (id int AUTO_INCREMENT not null,PRIMARY KEY(id), name varchar(150) unique,gender varchar(1),class_id int, FOREIGN KEY (class_id) REFERENCES class(id),section_id int, FOREIGN KEY (section_id) REFERENCES section(id));
 
+#desc teacher;
+#drop database School;

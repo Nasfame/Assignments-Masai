@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48df4305-ffab-449c-bb48-db1bfe9d6a3a" name="Default Changelist" comment="" />
+    <list default="true" id="48df4305-ffab-449c-bb48-db1bfe9d6a3a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movie App.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Moviereview2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint_categories.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint_comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint_movie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/comment.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/movie_category.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/movies.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/users.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/commands/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/install/wheel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/operations/prepare.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/utils/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip/_internal/wheel_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/dependency_links.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/entry_points.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-46.1.3.dist-info/zip-safe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_wininst.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/bdist_wininst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command/easy_install.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/lib2to3_ex.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/lib2to3_ex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/package_index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install-3.8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/pip3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWD/Movie Review.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SWD/table_creation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SWD/table_creation.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +66,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1bPEiSpYirhQDemnr1wbnWNjHAG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,9 +77,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="0" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="J:\3D objects\Assignments-Masai\FFD" />
+      <recent name="J:\3D objects\Assignments-Masai\FFD\data" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Flask (server.py)" type="Python.FlaskServer" nameIsGenerated="true">
@@ -65,6 +121,12 @@
       <workItem from="1589012708574" duration="348000" />
       <workItem from="1589015711322" duration="7843000" />
       <workItem from="1589108847483" duration="10315000" />
+      <workItem from="1590260105164" duration="2000000" />
+      <workItem from="1590313938110" duration="7319000" />
+      <workItem from="1590339817490" duration="4254000" />
+      <workItem from="1590348332315" duration="683000" />
+      <workItem from="1590351953476" duration="1503000" />
+      <workItem from="1590357779472" duration="3822000" />
     </task>
     <servers />
   </component>
@@ -72,45 +134,86 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="133" y="10" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588527045108">
+    <state x="133" y="10" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590359955469">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="133" y="10" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1588527045108" />
+    <state x="133" y="10" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590359955469" />
+    <state x="409" y="147" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590316042488">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="409" y="147" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1590316042488" />
     <state x="347" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589110080180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="347" y="50" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1589110080180" />
+    <state x="528" y="57" key="EnvironmentVariablesDialog" timestamp="1590357855976">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="528" y="57" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1590357855976" />
     <state x="409" y="60" key="FileChooserDialogImpl" timestamp="1588527039819">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="409" y="60" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1588527039819" />
-    <state width="1311" height="164" key="GridCell.Tab.0.bottom" timestamp="1589124187740">
+    <state width="1311" height="164" key="GridCell.Tab.0.bottom" timestamp="1590361747791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589124187740" />
-    <state width="1311" height="164" key="GridCell.Tab.0.center" timestamp="1589124187740">
+    <state width="1311" height="164" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590361747791" />
+    <state width="1311" height="164" key="GridCell.Tab.0.center" timestamp="1590361747791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589124187740" />
-    <state width="1311" height="164" key="GridCell.Tab.0.left" timestamp="1589124187740">
+    <state width="1311" height="164" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590361747791" />
+    <state width="1311" height="164" key="GridCell.Tab.0.left" timestamp="1590361747791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589124187740" />
-    <state width="1311" height="164" key="GridCell.Tab.0.right" timestamp="1589124187740">
+    <state width="1311" height="164" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590361747791" />
+    <state width="1311" height="164" key="GridCell.Tab.0.right" timestamp="1590361747791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1311" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589124187740" />
-    <state x="74" y="0" key="SettingsEditor" timestamp="1588526428066">
+    <state width="1311" height="164" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590361747791" />
+    <state width="1311" height="206" key="GridCell.Tab.1.bottom" timestamp="1590356483728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588526428066" />
-    <state x="262" y="-1" key="search.everywhere.popup" timestamp="1589019085932">
+    <state width="1311" height="206" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590356483728" />
+    <state width="1311" height="206" key="GridCell.Tab.1.center" timestamp="1590356483728">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="262" y="-1" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589019085932" />
+    <state width="1311" height="206" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590356483728" />
+    <state width="1311" height="206" key="GridCell.Tab.1.left" timestamp="1590356483728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="206" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590356483728" />
+    <state width="1311" height="206" key="GridCell.Tab.1.right" timestamp="1590356483728">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1311" height="206" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590356483728" />
+    <state x="74" y="0" key="SettingsEditor" timestamp="1590357947572">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="74" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590357947572" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1590361600487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1590361600487" />
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1590344522664">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590344522664" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/blueprint_class.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/FFD$Flask__server_py_.coverage" NAME="Flask (server.py) Coverage Results" MODIFIED="1589109104899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FFD$Flask__server_py_.coverage" NAME="Flask (server.py) Coverage Results" MODIFIED="1590359866501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FFD$blueprint_class.coverage" NAME="blueprint_class Coverage Results" MODIFIED="1590346571966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FFD$Flask.coverage" NAME="Flask (server.py) Coverage Results" MODIFIED="1588527051964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/FFD$server.coverage" NAME="server Coverage Results" MODIFIED="1590356557553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

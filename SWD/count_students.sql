@@ -1,0 +1,1 @@
+select count(*), t.name from student as std join section as s on s.id = std.section_id join teacher as t on t.id = s.teacher_id group by t.id;

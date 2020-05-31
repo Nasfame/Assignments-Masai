@@ -1,0 +1,28 @@
+SQL
+School Record Application
+
+A teacher can add as many students to as many classes and sections of the school.
+Note
+Mention Relationships and Relationship tables in the Schema
+Make another directory inside project as sql and store these files
+BD.W13.7.1_0
+Filename schema.txt
+Schema of all the tables
+BD.W13.7.1_1
+
+
+Category Creation Queries
+BD.W13.7.2_1
+Filename student_search.sql
+Find students of a particular Teacher.name
+Find students of a particular sections.name by a particular teacher.name
+BD.W13.7.2_2
+Filename section_max.sql
+Find highest number of students in a class and section
+BD.W13.7.2_3
+Filename count_students.sql
+Find the count of all the students taught by different teachers
+BD.W13.7.2_4
+Filename class_search.sql
+Find count of all the male students in different classes by a particular teacher.
+Note All the searching operations should be done for partial search.

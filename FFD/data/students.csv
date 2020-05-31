@@ -1,0 +1,4 @@
+id,name,email,gender,password,contact_number,address,father_name,mother_name
+1,Hiro,hiro@,M,1234,971,Tokyo,Tadashi,Tess
+2,Tadashi,hiro@,M,1234,971,Tokyo,Tadashi,Tess
+3,Hio,hiro@,M,1234,971,Tokyo,Tadashi,Tess

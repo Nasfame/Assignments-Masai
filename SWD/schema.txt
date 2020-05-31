@@ -1,26 +1,27 @@
-	User
+Teacher
 
 id  name
 int varchar
 
-Movies
+Student
 
-id  name    user_id category_id
-int varchar int     int
+id  name   gender class_id section_id
+int varchar varchar int	int
 
-Review
+Class
 
-id  name    user_id movie_id
-int varchar int     int
+id  name    
+int varchar	
 
-Category
 
-id  name   
-int varchar 
+Section
 
-Relationship
+id  name      teacher_id
+int varchar	int 
 
-User->Movies  One-> Many
-User->Review  One-> Many
-Movies->Review One-> Many
-Movies->Category One-> One
+ Relationship
+
+
+student->section one->one
+Section->Teacher many->one
+student->class one->one
