@@ -6,7 +6,7 @@ cryptography==2.9.2
 Flask==1.1.2
 get==2019.4.13
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jtk==0.0.2
 jwt==1.0.0
 MarkupSafe==1.1.1
@@ -27,7 +27,7 @@ cryptography==2.9.2
 Flask==1.1.2
 get==2019.4.13
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jtk==0.0.2
 jwt==1.0.0
 MarkupSafe==1.1.1
@@ -48,7 +48,7 @@ cryptography==2.9.2
 Flask==1.1.2
 get==2019.4.13
 itsdangerous==1.1.0
-Jinja2==2.11.2
+Jinja2==2.11.3
 jtk==0.0.2
 jwt==1.0.0
 MarkupSafe==1.1.1
