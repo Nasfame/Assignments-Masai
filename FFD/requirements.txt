@@ -13,7 +13,7 @@ MarkupSafe==1.1.1
 post==2019.4.13
 public==2019.4.13
 pycparser==2.20
-PyJWT==1.7.1
+PyJWT==2.4.0
 query-string==2019.4.13
 request==2019.4.13
 six==1.14.0
@@ -34,7 +34,7 @@ MarkupSafe==1.1.1
 post==2019.4.13
 public==2019.4.13
 pycparser==2.20
-PyJWT==1.7.1
+PyJWT==2.4.0
 query-string==2019.4.13
 request==2019.4.13
 six==1.14.0
@@ -55,7 +55,7 @@ MarkupSafe==1.1.1
 post==2019.4.13
 public==2019.4.13
 pycparser==2.20
-PyJWT==1.7.1
+PyJWT==2.4.0
 query-string==2019.4.13
 request==2019.4.13
 six==1.14.0
